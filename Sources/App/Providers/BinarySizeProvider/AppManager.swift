@@ -77,7 +77,7 @@ final class AppManager {
     do {
       try Shell.performShallowGitClone(
         workingDirectory: fileManager.currentDirectoryPath,
-        repositoryURLString: "https://github.com/marinofelipe/swift-package-info",
+        repositoryURLString: "https://github.com/kibotu/swift-package-info",
         branchOrTag: "main",
         verbose: verbose
       )
