@@ -109,6 +109,7 @@ final class AppManager {
         \(cmdXCConfig) \
         -arch arm64 \
         -sdk iphoneos \
+        -destination 'platform=iOS Simulator,name=iPhone 15,OS=latest' \
         CODE_SIGNING_REQUIRED=NO \
         CODE_SIGNING_ALLOWED=NO \
         ENABLE_BITCODE=NO
