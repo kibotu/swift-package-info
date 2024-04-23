@@ -37,7 +37,7 @@ public struct SwiftPackageInfo: AsyncParsableCommand {
         that can be used in your favor when deciding whether to
         adopt or not a Swift Package as a dependency on your app.
         """,
-    version: "1.5.5",
+    version: "1.5.6",
     subcommands: [
       BinarySize.self,
       Platforms.self,
