@@ -108,6 +108,7 @@ final class AppManager {
         -configuration Release \
         \(cmdXCConfig) \
         -arch arm64 \
+        -sdk iphoneos \
         CODE_SIGNING_REQUIRED=NO \
         CODE_SIGNING_ALLOWED=NO \
         ENABLE_BITCODE=NO
